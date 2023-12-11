@@ -1,12 +1,12 @@
 # Mini Chat Box
 ***Author:Dennis***
 
----
+
 
 ## Overview
 This project aims to implement a multi-client plain text chat server that can accept connections from multiple clients at the same time and forward the text sent by any client to all clients (including senders) by using JAVA.
 
----
+
 
 ## How to use
 * You can use `java -jar .\sth.jar` to run the `.jar file` of the client and sever on your terminal.
@@ -16,7 +16,7 @@ This project aims to implement a multi-client plain text chat server that can ac
 
 * As this project doesn't implement authentication, you can connect directly to the server and communicate with other  clients when you enter your username on the client you are running.
   
----
+
 
 ##  Code analysis
 
