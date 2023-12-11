@@ -4,7 +4,7 @@
 
 
 ## Overview
-This project aims to implement a multi-client plain text chat server that can accept connections from multiple clients at the same time and forward the text sent by any client to all clients (including senders) by using JAVA.
+* This project aims to implement a multi-client plain text chat server that can accept connections from multiple clients at the same time and forward the text sent by any client to all clients (including senders) by using JAVA.
 
 
 
