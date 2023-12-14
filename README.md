@@ -7,6 +7,24 @@
 * This project aims to implement a multi-client plain text chat server that can accept connections from multiple clients at the same time and forward the text sent by any client to all clients (including senders) by using JAVA.
 
 
+## API
+* This project calls the `readString()` method of the Ulitity class, which is used to handle various user inputs.
+'''java
+    /**
+     * Function: Read a string of specified length entered by the keyboard
+     * @param limit: The length of the limit
+     * @return: A string of specified length
+     */
+
+    public static String readString(int limit) {
+        return readKeyBoard(limit, false);
+    }
+```
+* Please note that as I chose the local device to act as a server for this project,so I chose to call  `InetAddress.getLocalHost()` method to get the server's IP address when creating the client's socket object.
+```java
+ socket=new Socket(InetAddress.getLocalHost(),9999);
+```
+>In this project,you can call `InetAddress.getByName()` to get the IP address of the given hostname instead of calling`InetAddress.getLocalHost()`.
 
 ## How to use
 * You can use `java -jar .\sth.jar` to run the `.jar file` of the client and sever on your terminal.
