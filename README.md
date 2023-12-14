@@ -22,13 +22,13 @@
     }
 ```
 
-* Please note that as I chose the local device to act as a server for this project,so I chose to call  `InetAddress.getLocalHost()` method to get the server's IP address when creating the client's socket object.
+* As I chose the local device to act as a server in this project,so I chose to call  `InetAddress.getLocalHost()` method to get the server's IP address when creating the client's socket object.
 
 ```java
  socket=new Socket(InetAddress.getLocalHost(),9999);
 ```
 
->In this project,you can call `InetAddress.getByName()` to get the IP address of the given hostname instead of calling`InetAddress.getLocalHost()`.
+***Please note that you can also call `InetAddress.getByName()` to get the IP address of the given hostname instead of calling`InetAddress.getLocalHost()`.***
 
 ## How to use
 * You can use `java -jar .\sth.jar` to run the `.jar file` of the client and sever on your terminal.
